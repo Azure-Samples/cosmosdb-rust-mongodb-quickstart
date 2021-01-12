@@ -46,7 +46,7 @@ Export the connection string, MongoDB database, and collection names as environm
 export MONGODB_URL="mongodb://<COSMOSDB_ACCOUNT_NAME>:<COSMOSDB_PASSWORD>@<COSMOSDB_ACCOUNT_NAME>.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@<COSMOSDB_ACCOUNT_NAME>@"
 ```
 
-> The `ssl=true` option is important because of Cosmos DB requirements. For more information, see [Connection string requirements](connect-mongodb-account.md#connection-string-requirements).
+> The `ssl=true` option is important because of Cosmos DB requirements. For more information, see [Connection string requirements](https://docs.microsoft.com/azure/cosmos-db/connect-mongodb-account?WT.mc_id=data-12579-abhishgu#connection-string-requirements).
 >
 
 For the `MONGODB_URL` environment variable, replace the placeholders for `<COSMOSDB_ACCOUNT_NAME>` and `<COSMOSDB_PASSWORD>`
