@@ -146,9 +146,11 @@ In the top Search box, enter **Azure Cosmos DB**. When your Cosmos account blade
 
 ## Clean up resources
 
-In this quickstart, you learned how to create an Azure Cosmos DB MongoDB API account using the Azure Cloud Shell, and create and run a Rust command-line app to manage `todo`s. You can now import additional data to your Azure Cosmos DB account.
+When you're done with your app and Azure Cosmos DB account, [you can delete the Azure resources](https://docs.microsoft.com/en-us/azure/cosmos-db/create-mongodb-dotnet#clean-up-resources) you created so you don't incur more charges. To delete the resources:
 
 ## Resources
+
+In this quickstart, you learned how to create an Azure Cosmos DB MongoDB API account using the Azure Cloud Shell, and create and run a Rust command-line app to manage `todo`s. You can now import additional data to your Azure Cosmos DB account. You can also explore the following resources:
 
 - [Pre-migration steps for data migrations from MongoDB to Azure Cosmos DB's API for MongoDB](https://docs.microsoft.com/azure/cosmos-db/mongodb-pre-migration?WT.mc_id=data-12579-abhishgu)
 - [Upgrade the MongoDB wire protocol version of your Azure Cosmos DB's API for MongoDB account](https://docs.microsoft.com/azure/cosmos-db/mongodb-version-upgrade?WT.mc_id=data-12579-abhishgu)
